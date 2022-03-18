@@ -1,7 +1,11 @@
 public class TV {
-	private int channel;
-	private int volumeLevel;
+	private int channel=1;
+	private int volumeLevel=1;
 	final boolean ON=true;
+	TV()
+	{
+		
+	}
 	TV (int channel, int volumeLevel) {
 		if(channel>120)
 		{
